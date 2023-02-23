@@ -1,0 +1,386 @@
+/* Homepage */
+
+/* Header */
+Body {
+    font-family: 'Quicksand', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    color: #222E4A; 
+    padding-top: 60px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fixed-header {
+    background-color: #F6EEE5;
+    border-bottom-style: solid;
+    border-bottom-color: #CDA5AD;
+    position: fixed;      
+    color: #222E4A; 
+    width: 100%;
+    height: 126px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    text-align: right;
+}
+
+.container img {
+    position: absolute;
+    width: 126px;
+    height: 73px;
+    top: 50px;
+    left: 120px;
+    bottom: 5px;
+  }
+
+
+
+nav a{
+    position: relative;
+    color: #222E4A;
+    text-decoration: none;
+    display: inline-block;
+    padding: 75px 45px;
+    font-size: 24px;
+
+   
+}
+
+nav a:hover {
+    background-image: url(/images/ltpk_rectangle.png);
+    background-size: 225px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    width: fit-content;
+    filter: drop-shadow(0px 3.30371px 3.30371px #F2D8CE);
+
+  }
+
+nav a:active {
+    background-image: url(/images/dk_pk_rectangle.png);
+    background-size: 225px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    filter: drop-shadow(0px 3.30371px 3.30371px #CDA5AD);
+
+  }
+
+/* hero section */
+.heroBackground {
+    background: url(../images/hero_print_repeat.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 126px;
+    width: 1728px;
+    height: 884px;
+    height: calc(100vh - 25px);
+    
+}
+
+
+.left img{
+    display: flex;
+    position: absolute;
+    width: 732px;
+    height: 263px;
+    left: 246px;
+    top: 282px;
+}
+
+/* Download CV */
+
+.leftbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    position: absolute;
+    width: 203px;
+    height: 56px;
+    left: 280px;
+    top: 545px;
+
+    background: #222E4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+    
+    font-family: 'Quicksand';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: #F6EEE5;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.leftbutton:hover {
+    background: #CDA5AD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+
+}
+
+.leftbutton:active {
+    background: #F2B872;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+
+}
+    
+
+/* image of self*/
+
+.right img{
+    position: absolute;
+    width: 604.58px;
+    height: 621px;
+    left: 1002px;
+    top: 131px;
+    
+    filter: drop-shadow(0px 3.30371px 3.30371px rgba(0, 0, 0, 0.25));
+    }
+
+/* card styles*/
+.projects {
+    position: relative;
+    display: flex;
+    width: 1728px;
+    height: 2099px;
+    left: -8px;
+    margin-top: 874px;
+    background-color: #F6EEE5;
+    
+
+}
+
+.projects img {
+    position: absolute;
+    width: 469px;
+    height: 102px;
+    left: 123.56px;
+    top: 36px;
+}
+
+.sectionHeading {
+    position: absolute;
+    width: 276px;
+    height: 110px;
+    left: 225px;
+    top: -70px;
+
+    font-family: 'Cheddar Jack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 136px;
+    display: flex;
+    align-items: center;
+
+    color: #222E4A;
+
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+.allprojects {
+    box-sizing: border-box;
+    position: absolute;
+    width: 994px;
+    left: 363px;
+    top: 200px;
+    
+    
+}
+
+.project1 {
+    background: #CDA5AD;
+    border: 0.787639px solid #222E4A;
+    box-shadow: 7.87639px 7.87639px 6.30111px rgba(0, 0, 0, 0.5);
+    margin-top:20px;
+    height: 525.36px;
+
+}
+
+.project2 {
+    background: #F2D8CE;
+    border: 0.787639px solid #222E4A;
+    box-shadow: 7.87639px 7.87639px 6.30111px rgba(0, 0, 0, 0.5);
+    margin-top:80px;
+    height: 525.36px;
+
+}
+
+.project3 {
+    background: #D29431;
+    border: 0.787639px solid #222E4A;
+    box-shadow: 7.87639px 7.87639px 6.30111px rgba(0, 0, 0, 0.5);
+    margin-top:80px;
+    height: 525.36px;
+
+}
+
+
+
+.card-title {
+    width: 407.5px;
+    height: 75px;
+    font-family: 'Caveat Brush', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    margin-bottom: 0px;
+    color: #222E4A;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 100px;
+    padding-left: 50px;
+
+}
+
+.card-text {
+    width: 407.5px;
+    height: 135px;
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 24px;
+
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222E4A;
+
+}
+
+/* View Project */
+.button {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    
+    width: 133.41px;
+    height: 44.35px;
+    color: #222E4A;
+    
+    background: #F6EEE5;
+    box-shadow: 0px 3.15055px 3.15055px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.button:hover {
+    background: #222E4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+    color: #F6EEE5;
+
+}
+
+.button:active {
+    background: #F2B872;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+
+}
+
+.project1 img {
+    position: absolute;
+    justify-content: right;
+    width: 497px;
+    height: 525.6px;
+    left: 497px;
+    top: 20.5px; 
+
+}
+
+.project2 img {
+    position: absolute;
+    justify-content: right;
+    width: 497px;
+    height: 526px;
+    left: 497px;
+    top: 626px; 
+
+}
+
+.project3 img {
+    position: absolute;
+    justify-content: right;
+    width: 497px;
+    height: 526px;
+    left: 497px;
+    top: 1233px; 
+
+}
+
+
+/* footer*/
+
+footer {
+    position: relative;
+    bottom: 0px;    
+    left: -8px;
+    width: 100%;
+    height: 399px;   
+    background: #CDA5AD;
+    text-align: center;   
+    
+}
+
+.footerConnect img{
+    position: absolute;
+    left: 650px;
+    top: 24px;
+}
+ 
+.footerLinks img {
+    position: relative;
+    float: left;
+    padding: 5px;
+    top: 193px;
+    left: 780px;
+}
+
+
+/* Copyright © 2023 phdesigns. All Rights Reserved. */
+
+p {
+    position: absolute;
+    width: 553px;
+    height: 30px;
+    left: 588px;
+    top: 327px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #222E4A;
+
+
+}
+
+
