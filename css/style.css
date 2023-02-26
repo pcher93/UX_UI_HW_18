@@ -2,11 +2,15 @@
 
 /* Header */
 Body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Quicksand', sans-serif;
     font-style: medium;
     font-weight: 500;
     color: #222E4A; 
     padding-top: 60px;
+    width: 100vw;
+    min-height: 100vh;
 }
 
 .container{
@@ -71,17 +75,12 @@ nav a:active {
 
 /* hero section */
 .heroBackground {
-    background: url(../images/hero_print_repeat.png);
-    background-size: cover;
-    background-repeat:no-repeat;
-    display: flex;
+    background-image: url(../images/hero_print_repeat.png);
+    background-repeat: no-repeat;
     position: absolute;
+    width: 100%;
     left: 0px;
-    top: 126px;
-    width: 1728px;
-    height: 884px;
-    height: calc(100vh - 25px);
-    
+    height: 100vh;
 }
 
 
@@ -157,10 +156,9 @@ nav a:active {
     width: 1728px;
     height: 2099px;
     left: -8px;
-    margin-top: 874px;
+    margin-top: 695px;
     background-color: #F6EEE5;
     
-
 }
 
 .projects img {
@@ -339,22 +337,338 @@ nav a:active {
 }
 
 
+/* about me */
+.flexContainer {
+    position: relative;
+    display: flex;
+    background-image: url(../images/BG-Hmong.png);
+    background-repeat: repeat;
+    width: 100%;
+    margin-left: -10px;
+    height:2200px; 
+    top: -90px;
+    overflow: hidden;
+
+}
+
+.headerBckgnd {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 102px;
+    left: 300px;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.5deg);
+}
+
+.sectionLabel {
+    position: absolute;
+    width: 306px;
+    height: 102px;
+    left: -100px;
+    top: -140px;
+    
+
+    font-family: 'Cheddar Jack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 136px;
+
+    color: #222E4A;
+
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.rightMe img{
+    position: absolute;
+    width: 436.06px;
+    height: 492.12px;
+    left: 1116.64px;
+    top: 200px;
+
+    background: url("about me photo.png");
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+    transform: rotate(6.84deg);
+}
+
+.ivryBox img {
+    display: flex;
+    width: 858px;
+    height: 380px;
+    margin-left: 120px;
+    margin-top: 234px;
+    
+
+    filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+}
+
+.Intro {
+    position: absolute;
+    display: flex;
+    width: 650px;
+    height: 340px;
+    left: 235px;
+    top: 280px;
+
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #222E4A;
+}
+
+/* skills */
+
+.headerBckgnd2 {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 102px;
+    left: 300px;
+    top: 850px;
+    justify-content: center;
+    text-align: center;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.5deg);
+}
+
+.sectionLabel2 {
+    position: absolute;
+    width: 306px;
+    height: 102px;
+    left: -100px;
+    top: -130px;
+    
+
+    font-family: 'Cheddar Jack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 136px;
+
+    color: #222E4A;
+
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* tech skills */
+.pkBox {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 90px;
+    left: 400px;
+    top: 1000px;
+    justify-content: center;
+    text-align: center;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.5deg);
+}
+
+.sectionLabel3 {
+    position: absolute;
+    width: 323px;
+    height: 76px;
+    left: 290px;
+    top: 960px;
+    
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 76px;
+    
+    color: #222E4A;
+}
+
+.row {
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 227px;
+  }
+  
+  .column {
+    flex: 20%;
+  }
+  
+  .alternate {
+    position: absolute;
+	list-style:none;
+	outline:none;
+    display:flex;
+	font-weight: 400;
+	width: 50px;
+    left: 200px;
+    top: 1100px;
+
+}
+
+li {
+    flex-grow:1;
+    flex-basis:0;
+    margin-right: -275px;
+   
+
+}
+    
+    
+ li img {
+        width: 200px;
+       
+       
+        }
+li p {
+        top: -25px;
+        left: -170px;
+        }
+
+/* programs */
+.gdBox {
+            position: absolute;
+            display: flex;
+            width: 100px;
+            height: 90px;
+            left: 400px;
+            top: 1400px;
+            justify-content: center;
+        
+            
+            filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+            transform: rotate(2.5deg);
+        }
+ .sectionLabel4 {
+            position: absolute;
+            width: 323px;
+            height: 76px;
+            left: 290px;
+            top: 1360px;
+            
+            font-family: 'Caveat Brush';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 76px;
+            text-align: center;
+            
+            color: #222E4A;
+        }
+ .ivryBox2 img {
+    position: absolute;
+            display: flex;
+            width: 515px;
+            height: 380px;
+            top: 1500px;
+            left: 200px;
+            filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+        }
+.Programs {
+            position: absolute;
+            list-style:none;
+            outline:none;
+            display:flex;
+            font-weight: 400;
+            width: 50px;
+            left: 200px;
+            top: 1100px;
+        
+        }
+    
+            
+            
+.Programs img {
+    top: 450px;
+    left: 250px;
+    width:170px;
+    height: 276px;
+               
+               
+                }
+.Programs p {
+                top: 415px;
+                left: 80px;
+                text-align: left;
+                line-height:60px;
+                font-size: 24px;
+
+                }
+
+/* soft skills */              
+.dpBox img {
+ position: absolute;
+display: flex;
+ width: 450px;
+ height: 90px;
+ left: 1000px;
+top: 1400px;
+filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+transform: rotate(2.5deg);
+
+}
+
+.sectionLabel5 {
+     position: absolute;
+    width: 323px;
+     height: 76px;
+     top: 1360px;
+    font-family: 'Caveat Brush';
+     font-style: normal;
+      font-weight: 400;
+     font-size: 60px;
+     line-height: 76px;
+     right: 275px;
+                    
+     color: #222E4A;
+}
+        
+.ivryBox3 img {
+            position: absolute;
+            display: flex;
+             width: 515px;
+           height: 380px;
+             top: 1500px;
+            left: 1000px;
+            filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+ }
+       
+ .softSk {
+    position: relative;
+    top: 1525px;
+    left: 80px;
+    text-align: left;
+    line-height:25px;
+   font-size: 24px;
+                
+  }
+
 /* footer*/
 
 footer {
-    position: relative;
-    bottom: 0px;    
-    left: -8px;
     width: 100%;
-    height: 399px;   
+    height: 385px;   
     background: #CDA5AD;
-    text-align: center;   
+    text-align: center; 
+    overflow: hidden;
+    margin-top: -90px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    
     
 }
 
 .footerConnect img{
-    position: absolute;
-    left: 650px;
+    position: relative;
+    left: 80px;
     top: 24px;
 }
  
@@ -362,25 +676,22 @@ footer {
     position: relative;
     float: left;
     padding: 5px;
-    top: 193px;
-    left: 780px;
+    top: 14px;
+    left: 830px;
 }
 
 
 /* Copyright © 2023 phdesigns. All Rights Reserved. */
 
 p {
-    position: absolute;
+    position: relative;
     width: 553px;
     height: 30px;
-    left: 588px;
-    top: 327px;
+    left: 450px;
+    top: 150px;
     display: flex;
     justify-content: center;
     text-align: center;
     color: #222E4A;
 
-
 }
-
-
