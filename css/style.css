@@ -651,6 +651,149 @@ transform: rotate(2.5deg);
                 
   }
 
+/* project page */
+.headerBckgnd2 {
+    top: 150px;
+    justify-content: center;
+}
+
+.sectionLabel6 {
+    position: absolute;
+    width: 306px;
+    height: 102px;
+    left: -100px;
+    top: -140px;
+    
+
+    font-family: 'Cheddar Jack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 136px;
+
+    color: #222E4A;
+
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+} 
+.c-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "thumb content";
+    grid-gap: 100px;
+    background-image: url("../images/BG-Hmong.png");
+    background-repeat: repeat;
+    margin-left: -8px;
+    margin-top: -85px;
+    
+  }
+  
+  .c-media.flipped {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content thumb";
+    
+  }
+  .c-media__thumb {
+    grid-area: thumb;
+    display: grid;
+    width: 294px;
+    margin-top: 100px;
+    right: 10px;
+  }
+  
+  .c-media__Project1 {
+    grid-area: content;
+    display: grid;
+   
+  }
+
+
+
+.ivryBox4 img {
+    display: flex;
+    width: 904px;
+    height: 447px;
+    margin-left: 120px;
+    margin-top: 150px;
+    
+    filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+}
+
+.recap {
+    position: absolute;
+    top: 380px;
+    left: 250px;
+}
+
+.recap2 {
+    position: absolute;
+    top: 380px;
+    left: 700px;
+}
+/* project problem */
+.c-media.nf {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "thumb content";
+    margin-top: 0px;
+    
+}
+
+.c-media.nf img {
+    grid-area: thumb;
+    height: 619px;
+    margin-left: 100px;
+}
+
+.c-media__Project2 {
+    grid-area: thumb;
+margin-left: 100px;
+margin-top: 400px;
+  }
+
+.c-media__content{
+    grid-area: content;
+    display: grid;
+    width: 294px;
+  margin-top: 100px;
+  right: 10px;
+    
+} 
+
+  .headerBckgnd3 {
+    position: absolute;
+    top: 800px;
+    left: -1200px;
+    height: 68px;
+    width: 500px;
+   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+   transform: rotate(2.5deg);
+}
+
+
+.sectionLabel7 {
+    position: absolute;
+    width: 400px;
+     height: 76px;
+     top: 770px;
+    font-family: 'Caveat Brush';
+     font-style: normal;
+      font-weight: 400;
+     font-size: 50px;
+     line-height: 63px;
+    
+     color: #222E4A;
+
+}
+
+.ivryBox5 img {
+    grid-area: content;
+    display: grid;
+    width: 904px;
+    height: 447px;
+    right: 0px;
+ top: 150px;
+    
+    filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+}
 /* footer*/
 
 footer {
@@ -662,7 +805,7 @@ footer {
     margin-top: -90px;
     margin-left: -10px;
     margin-bottom: -10px;
-    
+   
     
 }
 
@@ -695,3 +838,4 @@ p {
     color: #222E4A;
 
 }
+
