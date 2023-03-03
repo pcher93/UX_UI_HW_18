@@ -338,7 +338,7 @@ nav a:active {
 
 
 /* about me */
-.flexContainer {
+.flexContainer0 {
     position: relative;
     display: flex;
     background-image: url(../images/BG-Hmong.png);
@@ -427,7 +427,7 @@ nav a:active {
 
 /* skills */
 
-.headerBckgnd2 {
+.headerBckgnd0 {
     position: absolute;
     display: flex;
     width: 100px;
@@ -652,30 +652,56 @@ transform: rotate(2.5deg);
   }
 
 /* project page */
-.headerBckgnd2 {
-    top: 150px;
-    justify-content: center;
-}
 
-.sectionLabel6 {
+.v18_556 {
+    width: 100%;
+    height: 5200px;
+    opacity: 1;
+    position: relative;
+    top: -100px;
+    left: -10px;
+    margin-bottom: -270px;
+    overflow: hidden;
+  }
+  
+  .flexContainer {
     position: absolute;
-    width: 306px;
-    height: 102px;
-    left: -100px;
-    top: -140px;
-    
-
-    font-family: 'Cheddar Jack';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 136px;
-    line-height: 136px;
-
-    color: #222E4A;
-
+      display: flex;
+      background-image: url("../images/BG-Hmong.png");
+      background-repeat: repeat;
+      width: 100%;
+      margin-left: -10px;
+      height:5200px; 
+      margin-top: 0px;
+      overflow: hidden;
+  }
+  
+  /* roomstyler intro */
+  .sectionLabel6 {
+    width: 424px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 50px;
+    left: 169px;
     text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
-} 
-.c-media {
+    font-family: Cheddar Jack;
+    font-weight: Regular;
+    font-size: 136px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .headerBckgnd2 img{
+    position: absolute;
+  width: 469px;
+  height: 102px;
+  left: 122.6px;
+  top: 70px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  transform: rotate(2.64deg);
+  }
+  
+  .c-media {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "thumb content";
@@ -705,98 +731,572 @@ transform: rotate(2.5deg);
     display: grid;
    
   }
-
-
-
-.ivryBox4 img {
-    display: flex;
+  
+  .ivryBox5 img{
+    display: grid;
     width: 904px;
     height: 447px;
-    margin-left: 120px;
-    margin-top: 150px;
-    
+    margin-left: 200px;
+    margin-top: 200px;
     filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
-}
-
-.recap {
+  }
+  
+  .recap {
     position: absolute;
-    top: 380px;
-    left: 250px;
-}
-
-.recap2 {
+    top: 300px;
+    left: 300px;
+  }
+  
+  .recap2 {
     position: absolute;
-    top: 380px;
-    left: 700px;
-}
-/* project problem */
-.c-media.nf {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "thumb content";
-    margin-top: 0px;
-    
-}
-
-.c-media.nf img {
-    grid-area: thumb;
+    top: 300px;
+    left: 750px;
+  }
+  .v32_79 {
+    width: 289px;
+    height: 623px;
+    background: url("/images/RS_splash_screen.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 289px;
+    left: 1284px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  
+  /* roomstyler problem */
+  
+  .headerBckgnd3 img{
+    position: absolute;
+    display: grid;
+    width: 469px;
+    height: 68px;
+    left: 120px;
+    top: 790px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v18_568 {
+    width: 334px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 892px;
+    left: 188px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v34_80 {
+    width: 292px;
     height: 619px;
-    margin-left: 100px;
-}
-
-.c-media__Project2 {
-    grid-area: thumb;
-margin-left: 100px;
-margin-top: 400px;
+    background: url("../images/RS_coach_screen.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1000px;
+    left: 246px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  .ivryBox6 img{
+    display: flex;
+    position: absolute;
+  width: 904px;
+  height: 500px;
+  left: 600px;
+  top: 1060px;
+  transform: scaleX(-1);
+  filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+  }
+  
+  .headerBckgnd4 img{
+    position: absolute;
+    width: 450px;
+    height: 68px;
+    left: 650px;
+    top: 1020px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v34_99 {
+    width: 756px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1201px;
+    left: 661px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v34_100 {
+    width: 368px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1117px;
+    left: 682px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .headerBckgnd5 img{
+    position: absolute;
+    width: 469px;
+    height: 68px;
+    left: 650px;
+    top: 1230px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v34_101 {
+    width: 421px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1328px;
+    left: 680px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v34_106 {
+    width: 756px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1413px;
+    left: 661px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  /* roomstyler research */
+  
+  .headerBckgnd6 img{
+    position: absolute;
+    width: 469px;
+    height: 68px;
+    left: 122px;
+    top: 1594px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  .v18_569 {
+    width: 252px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1694px;
+    left: 222px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox7 img{
+    position: absolute;
+    width: 606px;
+    height: 700px;
+    left: 240px;
+    top: 1680px;
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v34_116 {
+    position: absolute;
+  width: 518px;
+  height: 347px;
+  left: 290px;
+  top: 1860px;
+  
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  
+  color: #222E4A;
+  }
+  
+  .v34_116 img {
+    position: absolute;
+  width: 455px;
+  height: 176px;
+  left: 30px;
+  top: 350px;
+  
+  }
+  
+  .v34_107 {
+    width: 732px;
+    height: 438px;
+    background: url("../images/RS_affinity_diagram.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    display: grid;
+    top: 1890px;
+    left: 876px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  
+  /* roomstyler define */
+  .headerBckgnd7 img{
+    position: absolute;
+  width: 469px;
+  height: 68px;
+  left: 122px;
+  top: 2455px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v18_591 {
+    width: 276px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 2555px;
+    left: 219px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox8 img{
+    position: absolute;
+    display: flex;
+  width: 1341px;
+  height: 550px;
+  left: 219px;
+  top: 2630px;
+  filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+  transform: scaleX(-1) rotateY(5 deg);
+  
+  }
+  
+  .v38_180 {
+    width: 100%;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 2680px;
+    left: 290px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v42_505 {
+    width: 373px;
+    height: 214px;
+    background: url("../images/RS_persona.jpg");
+    background-size: 373px ;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 119px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v42_506 {
+    width: 342px;
+    height: 214px;
+    background: url("../images/RS_ideation.jpg");
+    background-repeat: no-repeat;
+    background-size: 670px ;
+    background-position-y: center;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 511px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v42_507 {
+    width: 344px;
+    height: 214px;
+    background: url("../images/RS_FeaturePrioritizationMatrix.jpg");
+    background-repeat: no-repeat;
+    background-size: 344px ;
+    background-position-y: center;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 872px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v42_508 {
+    width: 373px;
+    height: 214px;
+    background: url("../images/RS_userjourney.png");
+    background-repeat: no-repeat;
+    background-size: 373px ;
+    background-position-y: center;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 1235px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* roomstyler prototype */
+  
+  .headerBckgnd8 img{
+    position: absolute;
+    width: 469px;
+    height: 68px;
+    left: 120px;
+    top: 3400px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v38_174 {
+    width: 213px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 3497px;
+    left: 248px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  .v38_176 {
+    width: 354px;
+    height: 267px;
+    background: url("../images/RS_lofi_sketches.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3590px;
+    left: 246px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v38_177 {
+    width: 354px;
+    height: 304px;
+    background: url("../images/RS_midfi_mockup.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3828px;
+    left: 498px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  .ivryBox9 img{
+    position: absolute;
+    width: 662px;
+    height: 260px;
+    left: 850px;
+    top: 3630px;
+    
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+    transform: rotate(-180deg);
+  
+  }
+  .v38_187 {
+    width: 606px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 3665px;
+    left: 900px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  /* roomstyler usability */
+  .headerBckgnd9 img{
+    position: absolute;
+    display: flex;
+    width: 469px;
+  height: 68px;
+  left: 120px;
+  top: 4115px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  .v38_191 {
+    width: 298px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4212px;
+    left: 188px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox10 img{
+    position: absolute;
+    width: 670px;
+    height: 393px;
+    left: 220px;
+    top: 4300px;
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.64deg);
+  
+  
+  }
+  .v38_195 {
+    width: 606px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4330px;
+    left: 270px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v38_196 {
+    width: 296px;
+    height: 223px;
+    background: url("../images/RS_cdm_interview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4453px;
+    left: 900px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v38_199 {
+    width: 296px;
+    height: 223px;
+    background: url("../images/RS_tinainterview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4306px;
+    left: 1104px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v38_200 {
+    width: 296px;
+    height: 223px;
+    background: url("../images/RS_pcinterview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4453px;
+    left: 1312px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  /* roomstyler takeaways */
+  .headerBckgnd10 img{
+    width: 450px;
+    height: 68px;
+    left: 120px;
+    top: 4650px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v38_203 {
+    width: 252px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4756px;
+    left: 220px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox11 img{
+    position: absolute;
+    display: grid;
+    width: 780px;
+  height: 188px;
+  left: 240px;
+  top: 4835px;
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+    transform: scaleX(1);
+  
+  }
+  
+  .v38_207 {
+    width: 764px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4835px;
+    left: 270px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 1;
+    text-align: left;
+    list-style-position: inside;
+  
   }
 
-.c-media__content{
-    grid-area: content;
-    display: grid;
-    width: 294px;
-  margin-top: 100px;
-  right: 10px;
-    
-} 
-
-  .headerBckgnd3 {
-    position: absolute;
-    top: 800px;
-    left: -1200px;
-    height: 68px;
-    width: 500px;
-   filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
-   transform: rotate(2.5deg);
-}
-
-
-.sectionLabel7 {
-    position: absolute;
-    width: 400px;
-     height: 76px;
-     top: 770px;
-    font-family: 'Caveat Brush';
-     font-style: normal;
-      font-weight: 400;
-     font-size: 50px;
-     line-height: 63px;
-    
-     color: #222E4A;
-
-}
-
-.ivryBox5 img {
-    grid-area: content;
-    display: grid;
-    width: 904px;
-    height: 447px;
-    right: 0px;
- top: 150px;
-    
-    filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
-}
 /* footer*/
 
 footer {
+    position: relative;
     width: 100%;
     height: 385px;   
     background: #CDA5AD;
@@ -806,7 +1306,6 @@ footer {
     margin-left: -10px;
     margin-bottom: -10px;
    
-    
 }
 
 .footerConnect img{
